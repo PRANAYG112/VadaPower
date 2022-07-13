@@ -103,34 +103,11 @@ a {
     transition: all 0.35s;
 }
 
+.firstNavDiv {
+    justify-content: space-between;
+}
+
 // Footer
-footer {
-    color: white;
-}
-
-footer a {
-    color: black;
-}
-
-footer a:hover {
-    color: white;
-}
-
-.footer-bottom {
-    background: #FABE00;
-    padding: 2em;
-}
-
-.footer-top {
-    background: #FABE00;
-}
-
-.footer-middle {
-    background: #FABE00;
-    padding-top: 2em;
-    color: white;
-}
-
 
 /**Sub Navigation**/
 
