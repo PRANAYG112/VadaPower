@@ -76,7 +76,7 @@ a {
 }
 
 .tab-content {
-  height: 14rem;
+  height: auto;
   position: absolute;
   z-index: 1;
   top: 2.75em;
@@ -84,7 +84,6 @@ a {
   padding: 1.618rem;
   background: #fff;
   color: black;
-  border-bottom: 0.25rem solid #bdc3c7;
   opacity: 0;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
@@ -109,31 +108,14 @@ a {
   transition: all 0.35s;
 }
 
-footer {
-  color: white;
+.mainNavDiv {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-footer a {
-  color: black;
-}
-
-footer a:hover {
-  color: white;
-}
-
-.footer-bottom {
-  background: #FABE00;
-  padding: 2em;
-}
-
-.footer-top {
-  background: #FABE00;
-}
-
-.footer-middle {
-  background: #FABE00;
-  padding-top: 2em;
-  color: white;
+.tab-data {
+  height: auto !important;
 }
 
 /**Sub Navigation**/
